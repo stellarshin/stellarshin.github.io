@@ -332,19 +332,19 @@ there.
  * ------------------------------------ */
 @keyframes "blinking_underscore_frame" {
   0% {
-    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)""
+    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
 
   50% {
-    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)""
+    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1;
   }
 
   100% {
-    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)""
+    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
@@ -385,19 +385,19 @@ there.
 
 @-ms-keyframes "blinking_underscore_frame" {
   0% {
-    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)""
+    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
 
   50% {
-    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)""
+    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     opacity: 1;
   }
 
   100% {
-    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)""
+    -ms-filter:  "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
