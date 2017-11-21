@@ -1,17 +1,14 @@
----
-layout: default
-title: Home
----
+--- layout: default title: Home ---
 
 <div class="home">
   <div class="post-list">
 
-  Home
+    Home
 
     <!-- {% for post in site.posts limit:5%} -->
 
- <!--    <article class="post_card post"> -->
-      <!-- <header class="post_header">
+    <!--    <article class="post_card post"> -->
+    <!-- <header class="post_header">
         <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
         <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
       </header>
@@ -21,34 +18,34 @@ title: Home
           {{ post.description}}
           {% else %}
           {{ post.excerpt }}
-          {% endif %} 
+          {% endif %}
           <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> »  </a>
-        </p> 
+        </p>
       </div>
       <footer class="post_meta"> -->
 
 
-        <!-- {% if post.location %}
+    <!-- {% if post.location %}
         <span class="author-location">
           <div data-icon="ei-location"></div>
           <a href=https://www.google.com/maps/place/{{post.location}}">{{ post.location }}</a>
         </span>
         {% endif %} -->
-        
-	<!-- 	카테고리 표시 -->
-     <!--  {% for category in post.categories %}
+
+    <!-- 	카테고리 표시 -->
+    <!--  {% for category in post.categories %}
         <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
           <data data-icon="ei-archive"></data>
           {{category}}</a>
         {% endfor %} -->
 
-        <!-- <p class="readmore">
+    <!-- <p class="readmore">
           <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
         </p> -->
-      </footer>
-      <!-- <hr/> -->
- <!--    </article> -->
-  <!--   {% endfor %} -->
+    </footer>
+    <!-- <hr/> -->
+    <!--    </article> -->
+    <!--   {% endfor %} -->
 
     <!-- <div class="pagination older-post"><a href="./posts"><data data-icon="ei-arrow-right"></data> Posts  </a></div> -->
   </div>
