@@ -4,5 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-[![email](./assets/img/email.png)](stellar.shinj@gmail.com, "email")
-[![github](./assets/img/github.png)](https://github.com/stellarshin, "github")
+<center>
+[![email](./assets/img/email.png)](stellar.shinj@gmail.com)  [![github](./assets/img/github-logo.png)](https://github.com/stellarshin)
+</center>
